@@ -362,7 +362,6 @@ GameObject:
   - component: {fileID: 1016907602}
   - component: {fileID: 1016907604}
   - component: {fileID: 1016907603}
-  - component: {fileID: 1016907605}
   m_Layer: 5
   m_Name: dice
   m_TagString: Untagged
@@ -421,23 +420,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1016907601}
---- !u!95 &1016907605
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016907601}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 29647f6b9f445174d854ef99a45124ba, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1495040274
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,10 +916,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2039307636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eabe29f91360bfc4cabd73893a7fa94f, type: 3}
+  m_Script: {fileID: 11500000, guid: 39c728cbb1d26cb44823126ad55da6c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loop: 1
   ui: {fileID: 1016907601}
+  rotationTime: 2
 --- !u!222 &2039307640
 CanvasRenderer:
   m_ObjectHideFlags: 0

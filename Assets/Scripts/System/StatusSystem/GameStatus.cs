@@ -39,6 +39,11 @@ namespace Assets.System.StatusSystem {
         
             return JsonUtility.ToJson( this );
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="jsonStr"></param>
+        /// <returns></returns>
         public static GameStatus FromJson(string jsonStr) {
             return JsonUtility.FromJson<GameStatus>( jsonStr );
         }

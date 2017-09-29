@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// 
+/// 旧代码,捕捉相机位置
+/// </summary>
 public class CameraCatcher : MonoBehaviour {
     private Vector3 offset = new Vector3(0 ,0,-2 );//相机相对于玩家的位置
     private Transform target;
