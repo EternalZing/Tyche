@@ -81,9 +81,11 @@
     <Compile Include="Assets\Scripts\Btn_St.cs" />
     <Compile Include="Assets\Scripts\Common\Algorithm\MyUnityMath.cs" />
     <Compile Include="Assets\Scripts\Common\Algorithm\PriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Common\Tools\PassEventer.cs" />
     <Compile Include="Assets\Scripts\Common\Tools\Serializer.cs" />
     <Compile Include="Assets\Scripts\GameUI\OnHover.cs" />
     <Compile Include="Assets\Scripts\GameUI\SceneUI\RotationOnHover.cs" />
+    <Compile Include="Assets\Scripts\GameUI\UISys\ButtonAction.cs" />
     <Compile Include="Assets\Scripts\GameUI\UISys\RoundButtonSet.cs" />
     <Compile Include="Assets\Scripts\System\Camera\CameraCatcher.cs" />
     <Compile Include="Assets\Scripts\System\DebugSys\DebugConsole.cs" />

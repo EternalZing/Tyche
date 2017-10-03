@@ -39,7 +39,7 @@ public class OnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler 
     /// 鼠标进入,执行OnHoverTriggered
     /// </summary>
     /// <param name="eventData"></param>
-    public void OnPointerEnter(PointerEventData eventData) {
+    public virtual void OnPointerEnter(PointerEventData eventData) {
         this.hovered = 1;
         this.OnHoverTriggered();
     }
@@ -47,7 +47,7 @@ public class OnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler 
     /// 鼠标离开,执行OnHoverLeave
     /// </summary>
     /// <param name="eventData"></param>
-    public void OnPointerExit(PointerEventData eventData) {
+    public virtual void OnPointerExit(PointerEventData eventData) {
         this.hovered = 0;
        this.OnHoverLeave();
     }
