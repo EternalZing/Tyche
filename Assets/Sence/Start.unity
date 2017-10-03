@@ -433,11 +433,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1096aa63c1854d46a4bf45d55524176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextList:
-  - Create Game
-  - Join Game
-  - Settings
-  - Quit
+  DataList:
+  - name: Create Game
+    mono: {fileID: 11500000, guid: 136f435010448064ca7d2ccfe10c5824, type: 3}
+  - name: Join Game
+    mono: {fileID: 11500000, guid: 136f435010448064ca7d2ccfe10c5824, type: 3}
+  - name: Settings
+    mono: {fileID: 11500000, guid: 136f435010448064ca7d2ccfe10c5824, type: 3}
+  - name: Quit
+    mono: {fileID: 11500000, guid: 136f435010448064ca7d2ccfe10c5824, type: 3}
   sp: {fileID: 21300000, guid: ec75db3ba2532b54ba92f44e29aecb95, type: 3}
   ca: {fileID: 1081088536}
   perc: 0.8

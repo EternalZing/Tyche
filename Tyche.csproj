@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\GameUI\OnHover.cs" />
     <Compile Include="Assets\Scripts\GameUI\SceneUI\RotationOnHover.cs" />
     <Compile Include="Assets\Scripts\GameUI\UISys\ButtonAction.cs" />
+    <Compile Include="Assets\Scripts\GameUI\UISys\RoundButtonReact.cs" />
     <Compile Include="Assets\Scripts\GameUI\UISys\RoundButtonSet.cs" />
     <Compile Include="Assets\Scripts\System\Camera\CameraCatcher.cs" />
     <Compile Include="Assets\Scripts\System\DebugSys\DebugConsole.cs" />
