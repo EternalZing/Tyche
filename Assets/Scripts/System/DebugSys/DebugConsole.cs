@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
+/// <summary>
+/// 内置调试控制台
+/// </summary>
 public class DebugConsole : MonoBehaviour {
 
     public GameObject DebugGui = null;             // The GUI that will be duplicated  
